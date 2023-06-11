@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[parfill]{parskip}% Begin paragraphs with an empty line rather than an indent
+
+\usepackage{libertinus} % use sb in place of bold
+\usepackage[lcgreekalpha,mathsfit]{libertinust1math}
+\usepackage[varqu,varl]{zi4}% inconsolata
+% \usepackage[scr=boondoxo,bb=boondox]{mathalpha} %Omit bb=boondox for default libertinus bb
+
+\usepackage{verbatim}
+
+\newcommand\abc{abcdefghijklmnopqrstuvwxyz}
+\newcommand\ABC{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+\newcommand\nums{0123456789}
+\newcommand\greekabc{%
+  \alpha\beta\gamma\delta\epsilon\varepsilon\zeta\eta\theta\vartheta%
+  \iota\kappa\lambda\mu\nu\xi\pi\rho\varrho\sigma\tau\upsilon%
+  \phi\varphi\chi\psi\omega%
+}
+\newcommand\greekABC{%
+  \Gamma\Delta\Theta\Lambda\Xi\Pi\Sigma\Upsilon\Phi\Psi\Omega%
+}
+
+\usepackage{booktabs}
+
+\title{LibertinusT1 Math Symbols}
+\author{Jacob Fuchs}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Math alphabets}
+
+The following math alphabets are available.
+Note that the option \verb|lcgreekalpha| is needed to make the lowercase
+greek letters follow the math alphabet.
+
+\begin{description}
+\item[default] same as italic
+\item[roman] \verb|\mathrm| \\
+  $\mathrm{\abc}$ $\mathrm{\ABC}$ $\mathrm{\nums}$ \\
+  $\mathrm{\greekabc}$ $\mathrm{\greekABC}$
+\item[bold] \verb|\mathbf| \\
+  $\mathbf{\abc}$ $\mathbf{\ABC}$ $\mathbf{\nums}$ \\
+  $\mathbf{\greekabc}$ $\mathbf{\greekABC}$
+\item[italic] \verb|\mathit| \\
+  $\mathit{\abc}$ $\mathit{\ABC}$ $\mathit{\nums}$ \\
+  $\mathit{\greekabc}$ $\mathit{\greekABC}$
+\item[bold italic] \verb|\mathbfit| \\
+  $\mathbfit{\abc}$ $\mathbfit{\ABC}$ $\mathbfit{\nums}$ \\
+  $\mathbfit{\greekabc}$ $\mathbfit{\greekABC}$
+\item[sans] \verb|\mathsf| \\
+  $\mathsf{\abc}$ $\mathsf{\ABC}$ $\mathsf{\nums}$ \\
+  $\mathsf{\greekabc}$ $\mathsf{\greekABC}$
+\item[bold sans] \verb|\mathsfbf| \\
+  $\mathsfbf{\abc}$ $\mathsfbf{\ABC}$ $\mathsfbf{\nums}$ \\
+  $\mathsfbf{\greekabc}$ $\mathsfbf{\greekABC}$
+\item[italic sans] \verb|\mathsfit| (needs the \verb|mathsfit| option) \\
+  $\mathsfit{\abc}$ $\mathsfit{\ABC}$ $\mathsfit{\nums}$ \\
+  $\mathsfit{\greekabc}$ $\mathsfit{\greekABC}$
+\item[bold italic sans] \verb|\mathsfbfit| \\
+  $\mathsfbfit{\abc}$ $\mathsfbfit{\ABC}$ $\mathsfbfit{\nums}$ \\
+  $\mathsfbfit{\greekabc}$ $\mathsfbfit{\greekABC}$
+\end{description}
+
+\end{document}
