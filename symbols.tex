@@ -26,6 +26,10 @@
 
 \usepackage{booktabs}
 
+\usepackage{hyperref}
+
+\usepackage{cleveref}
+
 \title{LibertinusT1 Math Symbols}
 \author{Jacob Fuchs}
 \date{\today}
@@ -39,6 +43,8 @@
 The following math alphabets are available.
 Note that the option \verb|lcgreekalpha| is needed to make the lowercase
 greek letters follow the math alphabet.
+Tables of all the greek letters and upright greek letters are given in
+\cref{tab:greek-letters,tab:upright-greek-letters}.
 
 \begin{description}
 \item[default] same as italic
@@ -67,5 +73,89 @@ greek letters follow the math alphabet.
   $\mathsfbfit{\abc}$ $\mathsfbfit{\ABC}$ $\mathsfbfit{\nums}$ \\
   $\mathsfbfit{\greekabc}$ $\mathsfbfit{\greekABC}$
 \end{description}
+
+\begin{table}
+  \caption{Greek letters}
+  \label{tab:greek-letters}
+  \centering
+  \begin{tabular}[c]{cccc@{\hskip 3em}cccc}
+    \toprule
+    $\alpha$ & \verb|\alpha| & & &
+    $\nu$ & \verb|\nu| & & \\
+    $\beta$ & \verb|\beta| & & &
+    $\xi$ & \verb|\xi| & $\Xi$ & \verb|\Xi| \\
+    $\gamma$ & \verb|\gamma| & $\Gamma$ & \verb|\Gamma| &
+    $\pi$ & \verb|\pi| & $\Pi$ & \verb|\Pi| \\
+    $\delta$ & \verb|\delta| & $\Delta$ & \verb|\Delta| &
+    $\varpi$ & \verb|\varpi| & & \\
+    $\epsilon$ & \verb|\epsilon| & & &
+    $\rho$ & \verb|\rho| & & \\
+    \addlinespace
+    $\varepsilon$ & \verb|\varepsilon| & & &
+    $\varrho$ & \verb|\varrho| & & \\
+    $\zeta$ & \verb|\zeta| & & &
+    $\sigma$ & \verb|\sigma| & $\Sigma$ & \verb|\Sigma| \\
+    $\eta$ & \verb|\eta| & & &
+    $\varsigma$ & \verb|\varsigma| & & \\
+    $\theta$ & \verb|\theta| & $\Theta$ & \verb|\Theta| &
+    $\tau$ & \verb|\tau| & & \\
+    $\vartheta$ & \verb|\vartheta| & & &
+    $\upsilon$ & \verb|\upsilon| & $\Upsilon$ & \verb|\Upsilon| \\
+    \addlinespace
+    $\iota$ & \verb|\iota| & & &
+    $\phi$ & \verb|\phi| & $\Phi$ & \verb|\Phi| \\
+    $\kappa$ & \verb|\kappa| & & &
+    $\varphi$ & \verb|\varphi| & & \\
+    $\varkappa$ & \verb|\varkappa| & & &
+    $\chi$ & \verb|\chi| & & \\
+    $\lambda$ & \verb|\lambda| & $\Lambda$ & \verb|\Lambda| &
+    $\psi$ & \verb|\psi| & $\Psi$ & \verb|\Psi| \\
+    $\mu$ & \verb|\mu| & & &
+    $\omega$ & \verb|\omega| & $\Omega$ & \verb|\Omega| \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
+  \caption{Upright greek letters}
+  \label{tab:upright-greek-letters}
+  \centering
+  \begin{tabular}[c]{cccc@{\hskip 3em}cccc}
+    \toprule
+    $\upalpha$ & \verb|\upalpha| & & &
+    $\upnu$ & \verb|\upnu| & & \\
+    $\upbeta$ & \verb|\upbeta| & & &
+    $\upxi$ & \verb|\upxi| & $\upXi$ & \verb|\upXi| \\
+    $\upgamma$ & \verb|\upgamma| & $\upGamma$ & \verb|\upGamma| &
+    $\uppi$ & \verb|\uppi| & $\upPi$ & \verb|\upPi| \\
+    $\updelta$ & \verb|\updelta| & $\upDelta$ & \verb|\upDelta| &
+    $\upvarpi$ & \verb|\upvarpi| & & \\
+    $\upepsilon$ & \verb|\upepsilon| & & &
+    $\uprho$ & \verb|\uprho| & & \\
+    \addlinespace
+    $\upvarepsilon$ & \verb|\upvarepsilon| & & &
+    $\upvarrho$ & \verb|\upvarrho| & & \\
+    $\upzeta$ & \verb|\upzeta| & & &
+    $\upsigma$ & \verb|\upsigma| & $\upSigma$ & \verb|\upSigma| \\
+    $\upeta$ & \verb|\upeta| & & &
+    $\upvarsigma$ & \verb|\upvarsigma| & & \\
+    $\uptheta$ & \verb|\uptheta| & $\upTheta$ & \verb|\upTheta| &
+    $\uptau$ & \verb|\uptau| & & \\
+    $\upvartheta$ & \verb|\upvartheta| & & &
+    $\upupsilon$ & \verb|\upupsilon| & $\upUpsilon$ & \verb|\upUpsilon| \\
+    \addlinespace
+    $\upiota$ & \verb|\upiota| & & &
+    $\upphi$ & \verb|\upphi| & $\upPhi$ & \verb|\upPhi| \\
+    $\upkappa$ & \verb|\upkappa| & & &
+    $\upvarphi$ & \verb|\upvarphi| & & \\
+    $\upvarkappa$ & \verb|\upvarkappa| & & &
+    $\upchi$ & \verb|\upchi| & & \\
+    $\uplambda$ & \verb|\uplambda| & $\upLambda$ & \verb|\upLambda| &
+    $\uppsi$ & \verb|\uppsi| & $\upPsi$ & \verb|\upPsi| \\
+    $\upmu$ & \verb|\upmu| & & &
+    $\upomega$ & \verb|\upomega| & $\upOmega$ & \verb|\upOmega| \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \end{document}
