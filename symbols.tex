@@ -152,6 +152,41 @@ commands, too: \verb|\upalpha| and \verb|\alphaup| for $\upalpha$,
 \end{table}
 
 \begin{table}
+  \caption{Delimiters (brackets etc.)}
+  \label{tab:delimiters}
+  \centering
+  \begin{tabular}[c]{clclp{1pt}clcl}
+    \toprule
+    \multicolumn{2}{c}{left} & \multicolumn{2}{c}{right} & &
+    \multicolumn{2}{c}{left} & \multicolumn{2}{c}{right} \\
+    \cmidrule(lr){1-2} \cmidrule(lr){3-4}
+    \cmidrule(lr){6-7} \cmidrule(lr){8-9}
+    $($ & \verb|(| & $)$ & \verb|)| & &
+    $\lfloor$ & \verb|\lfloor| & $\rfloor$ & \verb|\rfloor| \\
+    $[$ & \verb|[| & $]$ & \verb|]| & &
+    $\lceil$ & \verb|\lceil| & $\rceil$ & \verb|\rceil| \\
+    $\lbrace$ & \verb|\lbrace| & $\rbrace$ & \verb|\rbrace| & &
+    $\lBrack$ & \verb|\lBrack|, \verb|\dlb| & $\rBrack$ & \verb|\rBrack|, \verb|\drb| \\
+    $\langle$ & \verb|\langle|, \verb|<| & $\rangle$ & \verb|\rangle|, \verb|>| & &
+    $\lmoustache$ & \verb|\lmoustache| & $\rmoustache$ & \verb|\rmoustache| \\
+    $\lvert$ & \verb|\lvert| & $\rvert$ & \verb|\rvert| & &
+    $\left/\right.$ & \verb|/| & $\left.\right\backslash$ & \verb|\backslash| \\
+    $\lVert$ & \verb|\lVert| & $\rVert$ & \verb|\rVert| & &
+    $\lgroup$ & \verb|\lgroup| & $\rgroup$ & \verb|\rgroup| \\
+    \midrule[\heavyrulewidth]
+    \multicolumn{4}{c}{left and right} & & \multicolumn{4}{c}{left and right} \\
+    \cmidrule(lr){1-4} \cmidrule(lr){6-9}
+    $|$ & \verb/|/, \verb|\vert| & $\Vert$ & \verb/\|/, \verb|\Vert| & &
+    $\arrowvert$ & \verb|\arrowvert| & $\Arrowvert$ & \verb|\Arrowvert| \\
+    $\uparrow$ & \verb|\uparrow| & $\Uparrow$ & \verb|\Uparrow| & &
+    $\updownarrow$ & \verb|\updownarrow| & $\Updownarrow$ & \verb|\Updownarrow| \\
+    $\downarrow$ & \verb|\downarrow| & $\Downarrow$ & \verb|\Downarrow| & &
+    $\bracevert$ & \verb|\bracevert| & $\Vvert$ & \verb|\Vvert| \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
   \caption{Integral symbols (display style)}
   \label{tab:integrals}
   \centering
