@@ -1,7 +1,3 @@
-# Position in `libertinust1math.sty`
-
-at line: 1328
-
 # Possible categories / tables
 
 ## categories
