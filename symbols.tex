@@ -22,6 +22,11 @@
 
 \usepackage{cleveref}
 
+\makeatletter
+\let\mdlgblkdiamond\relax
+\libus@MathSymbol{\mdlgblkdiamond}           {\mathord}{symbols}{"DD}
+\makeatother
+
 \newcommand\abcx{abcdefghijklmnopqrstuvwxyz}
 \newcommand\abc{abcdefghi\imath{}j\jmath{}klmnopqrstuvwxyz}
 \newcommand\ABC{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
