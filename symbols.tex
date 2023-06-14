@@ -15,6 +15,7 @@
 
 \usepackage{verbatim}
 
+\usepackage{tabularx}
 \usepackage{booktabs}
 
 \usepackage{hyperref}
@@ -464,6 +465,52 @@ commands, too: \verb|\upalpha| and \verb|\alphaup| for $\upalpha$,
 \end{table}
 
 \begin{table}
+  \caption{Geometric symbols}
+  \label{tab:geometric}
+  \centering
+  \begin{tabularx}{\textwidth}{cXcX}
+    \toprule
+    % 1st row
+    $\triangleright$ & \verb|\triangleright| &
+    $\mdlgblksquare$ & \verb|\blacksquare|, \verb|\mdlgblksquare| \\
+    $\triangleleft$ & \verb|\triangleleft| &
+    $\mdlgwhtsquare$ & \verb|\square|, \verb|\mdlgwhtsquare|, \verb|\Box| \\
+    \addlinespace
+    % 3rd row
+    $\blacktriangleright$ & \verb|\blacktriangleright| &
+    $\mdlgblkdiamond$ & \verb|\mdlgblkdiamond| \\
+    $\vartriangleright$ & \verb|\vartriangleright|, \verb|\rhd| &
+    $\mdlgwhtdiamond$ & \verb|\mdlgwhtdiamond| \\
+    % 5th row
+    $\blacktriangleleft$ & \verb|\blacktriangleleft| &
+    $\smwhtdiamond$ & \verb|\diamond|, \verb|\smwhtdiamond| \\
+    $\vartriangleleft$ & \verb|\lhd|, \verb|\vartriangleleft| &
+    $\mdlgwhtlozenge$ & \verb|\Diamond|, \verb|\mdlgwhtlozenge|, \verb|\lozenge| \\
+    \addlinespace
+    % 7th row
+    $\bigblacktriangleup$ & \verb|\bigblacktriangleup| &
+    $\mdlgblkcircle$ & \verb|\mdlgblkcircle| \\
+    $\bigtriangleup$ & \verb|\triangle|, \verb|\bigtriangleup|, \newline \verb|\varbigtriangleup| &
+    $\mdlgwhtcircle$ & \verb|\bigcirc|, \verb|\mdlgwhtcircle| \\
+    % 9th row
+    $\bigblacktriangledown$ & \verb|\bigblacktriangledown| &
+    $\smwhtcircle$ & \verb|\circ|, \verb|\smwhtcircle| \\
+    $\bigtriangledown$ & \verb|\bigtriangledown|, \verb|\varbigtriangledown| &
+    $\smblkcircle$ & \verb|\smblkcircle| \\
+    \addlinespace
+    % 11th row
+    $\fisheye$ & \verb|\fisheye| &
+    $\vysmblkcircle$ & \verb|\bullet|, \verb|\vysmblkcircle| \\
+    $\bullseye$ & \verb|\bullseye| &
+    $\vysmwhtcircle$ & \verb|\vysmwhtcircle| \\
+    % 13th row
+    $\hyphenbullet$ & \verb|\hyphenbullet| &
+    $\QED$ & \verb|\QED| \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\begin{table}
   \caption{Accents}
   \label{tab:accents}
   \centering
@@ -548,8 +595,6 @@ $\natural$
 $\sharp$
 $\smile$
 $\frown$
-$\triangleright$
-$\triangleleft$
 $\colon$
 $<$
 $>$
@@ -913,63 +958,9 @@ $\invnot$
 %$\hexagon$
 %$\varcarriagereturn$
 
-%$\trapezium$
-%$\benzenr$
-%$\strns$
-%$\fltns$
-%$\accurrent$
-%$\elinters$
 $\mathvisiblespace$
-$\mdlgblksquare$ $\blacksquare$
-$\mdlgwhtsquare$ $\square$ $\Box$
-%$\squoval$
-%$\blackinwhitesquare$
-%$\squarehfill$
-%$\squarevfill$
-%$\squarehvfill$
-%$\squarenwsefill$
-%$\squareneswfill$
 
-%$\squarecrossfill$
-%$\smblksquare$
-%$\smwhtsquare$
-%$\hrectangleblack$
-%$\hrectangle$
-%$\vrectangleblack$
-%$\vrectangle$
-%$\parallelogramblack$
-%$\parallelogram$
-$\bigblacktriangleup$
-$\bigtriangleup$ $\varbigtriangleup$ $\triangle$
 $\Perp$
 $\nPerp$
-$\blacktriangleright$
-$\vartriangleright$
-$\rhd$
-%$\smallblacktriangleright$
-
-%$\smalltriangleright$
-%$\blackpointerright$
-%$\whitepointerright$
-$\bigblacktriangledown$
-$\bigtriangledown$ $\varbigtriangledown$
-$\blacktriangledown$
-$\triangledown$
-$\blacktriangleleft$
-$\vartriangleleft$
-$\lhd$
-$\mdlgblkdiamond$
-$\mdlgwhtdiamond$
-
-$\fisheye$
-$\mdlgwhtlozenge$ $\lozenge$ $\Diamond$
-$\mdlgwhtcircle$ $\bigcirc$
-%$\relbar$
-%$\Relbar$
-$\bullseye$
-$\mdlgblkcircle$
-
-$\smwhtcircle$ $\circ$
-$\smwhtdiamond$ $\diamond$
 
 \end{document}
