@@ -2,21 +2,15 @@
 
 ## categories
 
-* ASCII symbols: +-=!/()[]<>|':*
 * elementary binary operations +-\*/
 * extended binary operations
 * elementary functions: \sqrt\%
 * comparisons
 * extended comparisons
-* equal signs and related
 * differential operators
 * relational operators
 * set and logical operators
-* arrows
-* brackets: ()[]{}<>\vert
 * delimiters: \mid\|\uparrow
-* big symbols: sum, product, integral
-* accents '\hat\grave\bar\dot
 
 ## sources
 
